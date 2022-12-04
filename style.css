@@ -1,0 +1,183 @@
+body{
+    background-color: black;
+    color: aliceblue;
+}
+.nav1{
+    background-color: black;
+    position: fixed;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+li{
+    font-size: 20px;
+    margin: 20px;
+    display: inline-block;  
+    
+}
+.li1{
+    color: aliceblue;
+    list-style: none;
+    text-decoration: none;
+}
+.video1 video{
+    top:0; left: 0;
+    z-index: -1;
+    height: 100%;
+    width:100%;
+    object-fit: cover;
+  }
+h1{
+    text-align: center;
+    font-size: 50px;
+}
+h2{
+    text-align: center;
+    color: #FF4F5B;
+    font-size: 50px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+ p{
+    font-size: 20px;
+    color: #666;
+  }
+#photo{
+    display: flex;
+    justify-content:space-between;
+}
+.right{
+    width:45%
+}
+.about-details .right img{
+    height: 450px;
+    width: 450px;
+    object-fit: cover;
+    border-radius:12px ;
+    padding-left: 40px;
+}
+.left{
+    width:55%;
+}
+.topic{
+    font-size:25px ;
+    font-weight:500 ;
+    margin-bottom: 10px;
+    color: #666;
+}
+.img img{
+    width: 100%;
+}
+
+.row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding:2rem 0;
+  }
+.row .image{
+    flex:1 1 37rem;
+    height:35rem;
+    text-align: center;
+  }
+.row .image img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius:12px
+  }
+.row .content{
+    padding: 2rem 0;
+    flex:1 1 37rem;  
+  }
+
+  .row .content h2{
+    color: #fff; 
+  }
+.row .content p{
+    font-size: 1.7rem;
+    color:#aaa;
+    padding: 1rem 0;
+    padding-left: 30px;
+  
+  }
+table img{
+    width:200px;
+}
+table{
+    border: 1px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: black; 
+    border: #FF4F5B; 
+}
+.trtd {
+    font-size: 30px;
+    text-align: center;
+    background-color: #aaa;
+}
+span{
+    color: #FF4F5B;
+}
+button {
+    background-color: white; 
+    color: black; 
+    font-size: 20px;
+    border: 2px solid #f44336;
+    width: 100%;
+    height: 50px;
+  }
+  
+button:hover {
+    background-color: #f44336;
+    color: white;
+  }
+  h3{
+    color: white;
+    text-align: center;
+
+  }
+  input{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  label{
+    font-size: 20px;
+  }
+  legend{
+    font-size: 30px;
+    color: #FF4F5B;
+  }
+.bu {
+    background-color: white; 
+    color: black; 
+    font-size: 20px;
+    border: 2px solid #f44336;
+    width: 100%;
+    height: 50px;
+  }
+  
+.bu:hover {
+    background-color: #f44336;
+    color: white;
+  }
+@media  (max-width: 576px)  { 
+  #photo{
+    display: block;
+    text-align: center;
+    width: 100%;
+}
+p{
+ text-align: center;
+}
+footer{
+  width: 100%;
+}
+
+} 
